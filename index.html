@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dasith Edirisinghe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<style>
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+@media (max-width: 768px) {
+    .your-container-class {
+        padding: 10px; /* Adjust padding/margins */
+        width: 100%;   /* Ensure full width */
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+.column {
+    flex: 1 1 100%; /* Make columns stack on small screens */
+}
+
+.resume-wrap {
+    width: 100%; /* Full width on smaller screens */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.nav-link span {
+    font-size: 14px; /* Reduce font size */
+    font-weight: normal; /* Reduce font weight */
+}
+
+.navbar-brand {
+        font-family: 'Nunito Sans', sans-serif;
+		font-weight: 200; 
+        font-size: 24px;
+		white-space: nowrap;
+        display: inline-block;
+		max-width: 100%;
+    }
+
+p {
+        font-family: 'Nunito Sans', sans-serif;
+		font-size: 16px;
+    }
+
+li {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+    }
+
+h1.mb-4.mt-3 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20pt;
+    }
+
+
+
+
+
+/* Style the dropdown container */
+.nav-item.dropdown {
+    position: relative;
+}
+
+/* Hide the dropdown menu by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #ddd;
+    z-index: 1000;
+    width: 200px; /* Set a fixed width or max-width */
+}
+
+
+/* Style the dropdown menu items */
+.dropdown-menu li {
+    padding: 0;
+    white-space: nowrap; /* Ensure text does not wrap */
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px; /* Adjust font size if needed */
+}
+.dropdown-menu a:hover {
+    background-color: #36a4a1;
+}
+
+/* Show the dropdown menu when it's active */
+.nav-item.dropdown.active .dropdown-menu {
+    display: block;
+}
+
+ /* Basic styling for the button */
+ .github-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            border: 2px solid #ffffff; /* Black border for visibility */
+            border-radius: 4px;
+            padding: 10px; /* Adjust padding for square shape */
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 12pt;
+            text-decoration: none;
+            color: #ffffff; /* Black text color */
+            margin-top: 10px; /* Space above the button */
+			
+        }
+
+.github-button i {
+            margin-right: 6px; /* Space between icon and text */
+			
+}
+
+        /* Aligning the button to the left */
+.align-left {
+            text-align: left;
+}
+
+.experience-ul-style{ 
+	font-size: 14px; 
+	color: white; 
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.experience-il-style{ 
+	font-size: 14px; 
+	color: white; 
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			
+			<a class="navbar-brand" href="index.html" style="font-family: 'Nunito Sans', sans-serif; font-size: 18px;">
+				Dasith Edirisinghe</a>
+	
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+	
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto" style="display: flex; flex-wrap: nowrap; padding-left: 0; padding-right: 0; margin: 0;">
+					<!-- <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li> -->
+					<li class="nav-item"><a href="index.html" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#news-section" class="nav-link"><span>News</span></a></li>
+					<li class="nav-item"><a href="#publications-section" class="nav-link"><span>Publications</span></a></li>
+					<li class="nav-item"><a href="#Education-section" class="nav-link"><span>Education</span></a></li>
+					<!-- <li class="nav-item"><a href="#Researches-section" class="nav-link"><span>Researches</span></a></li> -->
+					
+					
+					<li class="nav-item dropdown">
+						<a href="#Experience-section" class="nav-link" onclick="toggleDropdown(event)">
+							<span>Experiences</span>
+						</a>
+						<ul class="dropdown-menu">
+                            <li><a href="#WorkingExperience-section" class="nav-link">Working Experience</a></li>
+                            <li><a href="#TeachingExperience-section" class="nav-link">Teaching Experience</a></li>
+							<li><a href="#Talks-section" class="nav-link">Tech Talks</a></li>
+                        </ul>
+					</li>
+
+					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+					
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	 
+
+	<!-- about section starts -->
+	<section style="margin-top: 140px;"  id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+					<!-- Left Column: Image + Highlighted Details -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-5 col-md-6">
+										<div class="about-img">
+											<img src="images/profile.png" class="img-fluid rounded b-shadow-a" alt="">
+										</div>
+									</div>
+	
+									<!-- Highlighted Details below the image -->
+									<div class="one-forth d-flex align-items-center ftco-animate" style="margin-top: 20px;">
+										<div class="text">
+											<h2 style="font-family: 'Nunito Sans', sans-serif; font-size: 32px; font-weight: 700; line-height: 40px; text-align: left;">
+												Dasith Edirisinghe
+											</h2>
+											<br><br>
+	
+											<h3 style="font-family: 'Nunito Sans', sans-serif; font-size: 24px; font-weight: 700; line-height: 30px; text-align: left;">
+												Machine Learning Engineer<br> 
+												Computer Vision Researcher
+											</h3>
+	
+											<p>
+												<ul class="ftco-footer-social list-unstyled d-flex align-items-center mb-0">
+													<li class="ftco-animate"><a href="https://www.linkedin.com/in/dasithedirisinghe/" target="_blank"><span class="icon-linkedin"></span></a></li>
+													<li class="ftco-animate"><a href="https://github.com/DasithEdirisinghe" target="_blank"><span class="icon-github"></span></a></li>
+													<li class="ftco-animate"><a href="https://dasith-dev.medium.com/" target="_blank"><span class="icon-medium"></span></a></li>
+													<li class="ftco-animate"><a href="https://x.com/Dasith_dev" target="_blank"><span class="icon-twitter"></span></a></li>
+													
+												</ul>
+											</p>
+										</div>
+									</div>
+									<!-- End of highlighted details -->
+	
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<!-- Right Column: About Description -->
+					<div class="col-md-6 col-lg-7 pl-lg-9 pb-9" style="margin-left: -20px;">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<h1 class="big" style="font-family: 'Nunito Sans', sans-serif; font-size: 100px;">About</h1>
+								<h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">About Me</h2>
+								<br><br>
+								<p style="text-align: justify; font-size: 18px; color: white; font-family: 'Nunito Sans', sans-serif;">
+									I am a Machine Learning Engineer and Researcher 
+									with a strong foundation in Computer Science and 
+									Engineering, having recently graduated with first-class honors 
+									from the University of Moratuwa, Sri Lanka. Specializing in 
+									the Computer Vision  domain, my focus is on exploring advanced 
+									AI techniques that closely mimic human cognitive processes, 
+									particularly within Computer Vision and Multimodal Foundation Models. 
+									I have a deep interest in optimizing training and inference processes 
+									on specialized hardware and am continuously driven by a passion for innovation in AI.
+								</p>
+	
+								<p> 
+									<div class="row justify-content-center mt-5">
+										<div class="col-md-6 text-center ftco-animate">
+											<p>
+												<a href="https://drive.google.com/file/d/1UowbmXjfRWDAiybdS0G1SwaenpFOfGkt/view?usp=sharing" 
+													class="btn btn-primary py-2 px-3" target="_blank">Resume 
+													<i class="fab fa-github" style="margin-left: 4px;"></i> 
+													<span class="icon-download"></span>
+												</a> 
+											</p>
+										</div>
+									</div>
+								</p>
+	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about section ends -->
+
+
+
+
+	<!-- about section starts ------ -->
+    <!-- <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+
+									<div class="col-sm-7 col-md-8">
+									  <div class="about-img">
+										<img src="images/main.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+																		
+									
+								  </div>								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-9 pb-9" style="margin-left: -20px;">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big" style="font-family: 'Nunito Sans', sans-serif;">About</h1>
+								<h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">About Me</h2>
+								<br><br>
+								
+								<p style="text-align: justify; font-size: 18px; color: white; font-family: 'Nunito Sans', sans-serif;">
+									Dasith Edirisinghe is a Machine Learning Engineer and Researcher with a
+									strong foundation in Computer Science and Engineering, recently graduated 
+									with from the University of Moratuwa, Sri Lanka. Specializing in the
+									Computer Vision domain, the focus lies in exploring advanced AI techniques that
+									closely mimic human cognitive processes, particularly within Computer Vision and 
+									Multimodal Foundation Models. With a deep interest in optimizing training and inference
+									processes on specialized hardware, 
+									there is a continuous drive for innovation in AI and cloud technologies.</p>
+
+									<P> 
+										<div class="row justify-content-center mt-5">
+											<div class="col-md-6 text-center ftco-animate">
+												<p><a href="https://drive.google.com/file/d/1UowbmXjfRWDAiybdS0G1SwaenpFOfGkt/view?usp=sharing" 
+													class="btn btn-primary py-2 px-3"target="_blank" >Resume 
+													<i class="fab fa-github" style="margin-left: 4px;"></i> 
+												 <span class="icon-download"></span>
+												
+												</a> 
+												</p>
+													
+											</div>
+										</div>
+									</P>
+
+								
+							</div>
+						</div>
+
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+    </section> -->
+	<!-- about section ends ------ -->
+
+
+
+
+<!-- news section starts -----------------------> 	
+    <section style="padding-top: 80px;" id="news-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+         
+			<div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2" style="font-family: 'Nunito Sans', sans-serif; font-size: 90px;">News</h1>
+            <h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">News Highlights</h2>
+			
+			<br>
+            <p>
+				<div style="margin-top: 10px;">
+					<div class="resume-wrap ftco-animate" style="font-size: 16px; color: white; font-family: 'Nunito Sans', sans-serif; width: 1000px;">
+				<ul style="font-family: 'Nunito Sans', sans-serif;"> 
+					<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif;">
+						<b>News 1 :</b> 
+						Here's the News line  **** ***** ** **** * ** **** *** ****** ***** ** ***** ***** **** ******
+					</li>
+
+					<li><b>News 2 :</b> Here's the News line 2</li>
+					<li><b>News 3 :</b> Here's the News line 3</li>
+					<li><b>News 4 :</b> Here's the News line 4</li>
+					<li><b>News 5 :</b> Here's the News line 5</li>
+				</ul>
+				</div>
+				</div>
+			</p>
+          </div>
+        </div>		
+			</div>
+    </section>
+<!-- END of the News Section -->
+
+
+	
+
+	<!-- Publications section starts -->
+	<section style="padding-top: 80px;" id="publications-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+
+          	<h1 class="big big-2" style="font-family: 'Nunito Sans', sans-serif; font-size: 90px;">Publications</h1>
+            <h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">Publications</h2>
+			<br>
+            
+			<p>
+				<div class="row width-narrower pagemain">
+					<div class="column xl-12">
+				<ul> 
+					<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; color: white;">
+						<u>Edirisinghe D.</u>, Rajapakse, K., Abeysinghe, P., & Rathnayake,
+						 S. (2024). Cost- Optimal Microservices Deployment with Cluster Autoscaling and Spot Pricing. 
+						 <!-- <a href="https://arxiv.org/abs/2405.12311" target="_blank" style="color: inherit; text-decoration: none;">
+							arXiv (Pre-Print)</a> -->
+					</li>
+
+					<P> 
+						<div class="row justify-content-start mt-3 align-left">
+							<div class="col-md-3">
+								<a href="https://arxiv.org/abs/2405.12311" target="_blank" class="github-button">
+									arXiv (Pre-Print)								 
+								</a>
+							</div>
+						</div>
+					</P>
+
+					<!-- <li><b>Publication 2 :</b> Here's the  line 2</li> -->
+					
+				</ul>
+				</div>
+				</div>
+			</p>
+          </div>
+        </div>			
+    	</div>
+    </section>
+	<!-- End of the Publications Section -->
+
+
+
+	<!-- Education Section starts --------- -->
+	<section style="padding-top: 80px;" id="Education-section">
+		<div class="container"> 
+
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2" style="margin-bottom: 0; padding-bottom: 0;font-family: 'Nunito Sans', sans-serif; font-size: 90px; ">Education</h1> 
+					<h2 class="mb-2" style="margin-bottom: 5px; font-family: 'Nunito Sans', sans-serif;">Education</h2>
+				</div>
+			</div>
+			
+			<div class="column">
+
+				<div class="row"> 
+					<section style="margin-top: 40px;"id="Bachelor-section"> 
+						<div class="col-md-100">
+							<div class="resume-wrap ftco-animate" style="font-family: 'Nunito Sans', sans-serif; width: 1150px;">
+								<i class="fab fa-github" style="margin-left: 4px;"></i> 
+												 <span class="icon-graduation-cap" style="color: white;"></span>
+								<span class="date">University of Moratuwa, Sri Lanka</span>
+								<br>
+								
+								
+	
+								<div style="display: flex; justify-content: space-between; align-items: center;">
+									<b>Nov 2018 - July 2023</b>																	
+								</div>
+								<br>
+
+								<P style="font-family: 'Nunito Sans', sans-serif; color: white;">
+									<ul>
+										<li style="font-family: 'Nunito Sans', sans-serif; color: white; font-size: 18px;">
+											B.Sc. Engineering Honours - <b>First Class</b></li>
+										<li style="font-family: 'Nunito Sans', sans-serif; color: white;">
+											Specialization: <b>Computer Science and Engineering</b></li>
+									</ul>
+								</P>
+
+								<P> 
+									<div class="row justify-content-start mt-3 align-left">
+										<div class="col-md-4">
+											<a href="https://uom.lk/" target="_blank" class="github-button">
+												UNIVERSITY OF MORATUWA 
+												<i class="fab fa-github" style="margin-left: 6px;"></i> 
+												 <span class="icon-graduation-cap"></span>
+											</a>
+										</div>
+									</div>
+								</P>						
+							</div>	
+						</div>
+					</section>
+				</div>
+	
+				<!-- <div class="row"> 	
+					<section class="ftco-section ftco-no-pb" id="schooling-section"> 
+						<div class="col-md-20">
+							<div class="resume-wrap ftco-animate" style="font-family: 'Nunito Sans', sans-serif;">
+								<span class="date">Teaching Experience</span>
+								<br>
+								<br>				
+	
+							<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+									<b style="margin-right: 755px;">
+										• Teaching Assistant</b>
+									<span>Aug 2022 - Dec 2022</span>								
+							</div>
+								<p style="font-family: 'Nunito Sans', sans-serif; font-size: 14pt;"> 
+									CS3042: <b>Database Systems</b>,University of Moratuwa
+							</p>
+							<br>
+							</div>	
+						</div>
+					</section>	
+				</div>			
+	
+			</div> -->
+				<!-- <div class="row">
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2014-2018</span>
+							<h2>Bachelor of Engineering</h2>
+							<span class="position">Visvesvaraya Technological University</span>
+							<p class="mt-4">Grade: First class distinction.</p>
+						</div>
+					</div>
+	
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2012-2013</span>
+							<h2>Higher Secondary School</h2>
+							<span class="position">Army Public School</span>
+							<p class="mt-4">Grade: First class distinction.</p>
+						</div>
+					</div>
+				</div> -->
+		</div>
+	 </section>
+	<!-- Education section ends --------------- -->
+
+
+
+	<!-- Researches section starts -->
+	<!-- <section class="ftco-section ftco-no-pb" id="Researches-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Researches</h1>
+            <h2 class="mb-4">Researches</h2><br>
+            <p>
+				<div class="row width-narrower pagemain">
+					<div class="column xl-12">
+				<ul> 
+					<li style="text-align: justify;">
+						<u>Edirisinghe D.</u>, Rajapakse, K., Abeysinghe, P., & Rathnayake,
+						 S. (2024). Cost- Optimal Microservices Deployment with Cluster Autoscaling and Spot Pricing. arXiv (Pre-Print)
+					</li>
+
+					
+					
+				</ul>
+				</div>
+				</div>
+			</p>
+          </div>
+        </div>			
+    	</div>
+    </section> -->
+	<!-- End of the Researches Section -->
+
+   
+
+
+
+	<!-- Experience section starts------- -->
+	<section style="padding-top: 80px;" id="Experience-section"> 
+		<div class="container">	
+
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-10 heading-section text-center ftco-animate">
+				<h1 class="big big-2" style="margin-bottom: 0; padding-bottom: 0; font-family: 'Nunito Sans', sans-serif; font-size: 90px;">Experiences</h1> 
+				<h2 class="mb-2" style="margin-bottom: 5px; font-family: 'Nunito Sans', sans-serif;">Experiences</h2>
+			<!-- <div class="underline"></div> -->
+		</div>
+		</div>		
+				
+		<div class="column">
+			<div class="row"> 
+				<section style="margin-top: 40px;" id="WorkingExperience-section"> 
+					<div class="col-md-20">
+						<div class="resume-wrap ftco-animate" style="font-family: 'Nunito Sans', sans-serif; width:1150px;">
+							<span class="date">Working Experience</span>
+							<br>
+							<br>
+
+							<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; 
+							font-size: 18px;" 
+							class="experience-ul-style">
+                                <b>• Machine Learning Engineer</b>
+                                July 2023 - Present								
+                            </div>
+
+							<div>
+								<i> <a href="https://rabot.us/" style="color: inherit; text-decoration: none; font-family: 'Nunito Sans', sans-serif;"> 
+									Rabot Inc, USA - Remote</a></i><br>
+								Working as a Machine Learning Engineer and Researcher specializing in the Computer Vision domain
+							</div>
+                            
+                            <p style="text-align: justify;">
+								<ul style="color: white;font-family: 'Nunito Sans', sans-serif;">
+									<li style="text-align: justify;" class="experience-il-style">
+										Researched Deep Contrastive Learning approaches for Image Similarity Search to enhance 
+										accuracy and efficiency utilizing metric learning techniques like siamese, proxy-anchor loss, 
+										triplet loss.
+									</li>
+									<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px;"> 
+										Developed and implemented a Hand Grasp Classification Model utilizing PyTorch and Mediapipe, 
+										successfully classifying seven distinct hand grasps in packing station environments with an 
+										accuracy of approximately 90%. This involved advanced video analysis techniques using large 
+										set of video data to accurately recognize and differentiate between specific grasp types, 
+										enhancing operational efficiency.
+									</li>
+									<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px;"> 
+										Optimized the inference pipeline of the YOLOv7 object detection model through quantization for 
+										specialized Hailo hardware, achieving real-time inference capabilities at 30 FPS. This enhancement 
+										significantly reduced latency while maintaining requisite accuracy and confidence levels.
+									</li>
+									<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px;"> 
+										Developed a ROS2 node that utilizes the lightweight ONNX runtime to enable efficient model inference in
+										resource-constrained environments. This node is specifically optimized for specialized NVIDIA GPUs, making
+										use of NVIDIA CUDA and NVIDIA TensorRT execution providers to maximize performance.
+									</li>
+								</ul>
+                                </p>
+
+								<div style="font-family: 'Nunito Sans', sans-serif;color: white;">
+									Technologies : PyTorch, Darknet, YOLOv7, ONNX Runtime, Hailo SW Suite, ROS2, GCP, Docker, 
+									Gitlab, Python,C++, Mender, CUDA, TensorRT
+								</div>
+
+								<br>
+								<br>
+
+								<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; color: white; font-size: 18px;">
+									<b>• Google Summer of Code Contributor</b>
+									May 2022 - Sep 2022								
+								</div>
+	
+								<div>
+									Weaviate, Netherlands - Remote <br>
+									<a href="https://dasith-dev.medium.com/gsoc-2022-final-report-1324a75e2cfa" 
+									target="_blank" style="color: inherit; text-decoration: none;">
+										Final Report
+						            <span class="icon-medium" style="margin-left: 1pt;"></span></a>
+								</div>
+								
+								<p style="text-align: justify;">
+									<ul>
+										<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+											During the summer of 2022, I worked under the mentorship of Weaviate engineers:
+											<!-- <ul style="padding-left: 20px; margin: 0; list-style-type: square;">
+												<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;" >
+													Developed the text summarization module for Weaviate, which helps users to summarize search results.</li>
+												<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+													Created the inferencing engine using FastAPI and the Hugging Face Transformers library.</li>
+											</ul> -->
+										</li>
+										<div style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+											- Developed the text summarization module for Weaviate, which helps users to summarize search results.
+
+										</div>	
+										<div style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+											- Created the inferencing engine using FastAPI and the Hugging Face Transformers library.
+										</div>																		
+									</ul>
+									</p>
+	
+									<div style="font-family: 'Nunito Sans', sans-serif; color: white;">
+										Technologies : PyTorch, Darknet, YOLOv7, ONNX Runtime, Hailo SW Suite, ROS2, GCP, Docker, 
+										Gitlab, Python,C++, Mender, CUDA, TensorRT
+									</div>
+
+								<br>
+								<br>
+
+								<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; color: white; font-size: 18px;">
+									<b>• Software Engineering Intern</b>
+									Dec 2021 - Sep 2022								
+								</div>
+	
+								<div>
+									<a href="https://dasith-dev.medium.com/gsoc-2022-final-report-1324a75e2cfa" 
+									target="_blank" style="color: inherit; text-decoration: none;">
+									Sysco LABs, Sri Lanka - Onsite									
+									</a>
+								</div>
+								
+								<p style="text-align: justify;">
+									<ul>
+										<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+											I contributed to the Sysco Warehouse Management System (SWMS) under the SWMS NewUI team, 
+											focusing on modernizing the classic SWMS application:
+											<!-- <ul style="padding-left: 20px; margin: 0; list-style-type: square;">
+												<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;" >
+													Fixed UI-related bugs using React JS.
+												</li>
+												<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+													Improved the service layer performance by re-implementing logic and optimizing queries using 
+													Java. 
+												</li>
+											</ul> -->
+										</li>
+										<div style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+											- Fixed UI-related bugs using React JS.											
+										</div>
+										<div style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+											- Improved the service layer performance by re-implementing logic and optimizing queries using 
+											Java.											
+										</div>																			
+									</ul>
+									</p>
+	
+									<div style="font-family: 'Nunito Sans', sans-serif; color: white;">
+										Technologies : ReactJs, Java, JavaScript, Git, PLSQL
+									</div>
+
+								<br>
+								<br>
+
+
+								<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; color: white; font-size: 18px;">
+									<b>• Software Engineering Intern</b>
+									April 2021 - Sep 2021								
+								</div>
+	
+								<div>
+									<a href="https://www.liveroom.xyz/"
+									target="_blank" style="color: inherit; text-decoration: none;">
+									LiveRoom Technologies, Sri Lanka - Remote 
+								</a>
+									
+								</div>
+								
+								<p style="text-align: justify;">
+									<ul>
+										<li style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+											Developed a 3D image conversion system leveraging AWS lambda container image support.
+											</li>																											
+									</ul>									
+									</p>
+
+									<div style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+										<a href="https://github.com/DasithEdirisinghe/glb2usdz" 
+									target="_blank" style="color: inherit; text-decoration: none;">
+										Project Link: 
+						            <span class="icon-github" style="margin-left: 1pt;"></span></a>
+									</div>	
+									
+	
+									<div style="font-family: 'Nunito Sans', sans-serif; color: white;">
+										Technologies : AWS lambda, AWS SQS, Docker, Python, JavaScript
+									</div>
+
+									<br>
+																
+						</div>	
+					</div>
+				</section>
+			</div>
+
+			<div class="row"> 
+				
+				<!-- <div class="col-md-6">
+					<section class="ftco-section ftco-no-pb" id="TeachingExperience-section">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Teaching Experience</span>
+
+						<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+							<b>• Teaching Assistant</b>
+							Aug 2022 - Dec 2022								
+						</div>
+						<p style="font-family: 'Nunito Sans', sans-serif; font-size: 14pt;"> 
+							CS3042: <b>Database Systems</b>,University of Moratuwa</p>
+
+							<br>
+
+								<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+									<b>• Teaching Assistant</b>
+									Aug 2022 - Dec 2022								
+								</div>
+								<p style="font-family:'Nunito Sans', sans-serif; font-size: 14pt;"> 
+									CS3953: <b>Technical Writing</b>, University of Moratuwa</p>
+									<br> 	
+
+						
+					</div>
+				</section>
+				</div> -->
+
+				<!-- <div class="col-md-6">
+					<section class="ftco-section ftco-no-pb" id="Talks-section">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Tech Talks</span>
+
+						<br>
+
+							<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+                                <b>•Deep Learning based Recommendation Systems</b>
+                                February 2021								
+                            </div>
+							<p style="font-family: 'Nunito Sans', sans-serif; font-size: 14pt;"> 
+								LiveRoom Tech Talks</p>
+								<br>
+
+								<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 14pt;">
+									<b>• Teaching Assistant</b>
+									Aug 2022 - Dec 2022								
+								</div>
+								<p style="font-family:'Nunito Sans', sans-serif; font-size: 14pt;"> 
+									CS3953: <b>Technical Writing</b>, University of Moratuwa</p>
+									<br> 
+
+						
+					</div>
+					</section>
+
+				</div> -->
+
+			
+
+				<section style="padding-top: 60px;" id="TeachingExperience-section"> 
+					<div class="col-md-20">
+						<div class="resume-wrap ftco-animate" style="font-family: 'Nunito Sans', sans-serif; width: 1150px;">
+							<span class="date">Teaching Experience</span>
+							<br>
+							<br>
+				
+
+						<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px;">
+                                <b style="margin-right: 720px; font-family: 'Nunito Sans', sans-serif; color: white;">
+									• Teaching Assistant</b>
+                                <span style="font-family: 'Nunito Sans', sans-serif; color: white;">Aug 2022 - Dec 2022</span>								
+                        </div>
+							<p style="font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white; "> 
+								CS3042: <b>Database Systems</b>,University of Moratuwa
+						</p>
+						<br>
+
+						<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif;; font-size: 16px; color: white;">
+									<b>• Teaching Assistant</b>
+									Aug 2022 - Dec 2022								
+								</div>
+								<p style="font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+									CS3953: <b>Technical Writing</b>, University of Moratuwa
+						</p>
+						<br> 	
+
+						</div>	
+					</div>
+				</section>	
+			</div>			
+
+			<div class="row"> 				
+				<section style="padding-top: 60px;" id="Talks-section"> 
+					<div class="col-md-20">
+						<div class="resume-wrap ftco-animate" style="font-family: 'Nunito Sans', sans-serif; width: 1150px;">
+							<span class="date">Tech Talks</span>
+							<br>
+							<br>
+			
+
+							<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+                                <b style="margin-right: 535px; font-family: 'Nunito Sans', sans-serif; color: white;">
+									• Deep Learning based Recommendation Systems</b>
+                                <span>February 2021</span>								
+                        </div>
+							<p style="font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+								LiveRoom Tech Talks
+						</p>
+						<br>
+
+						<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+									<b>• Software Engineering Best Practices</b>
+									September 2022								
+								</div>
+								<p style="font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+									CSE, University of Moratuwa
+						</p>
+						<br>
+
+						<div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+							<b>• Google Summer of Code Awareness Session</b>
+							February 2023
+								
+						</div>
+						<p style="font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;"> 
+							CS&ES, University of Moratuwa
+				</p>
+
+						</div>	
+					</div>
+				</section>
+			</div>		
+
+		</div>
+	</div>		
+    </section>
+	 </div>
+	<!-- Experience section ends ------ -->
+
+
+
+
+	<!-- Project section starts ------ -->
+    <section style="padding-top: 80px;" id="project-section">
+		<div class="container">
+		  <div class="row justify-content-center pb-5">
+  
+			<div class="col-md-10 heading-section text-center ftco-animate">
+			  <h1 class="big big-2" style="font-family: 'Nunito Sans', sans-serif; font-size: 90px;">Projects</h1>
+			  <h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">Projects</h2>
+  
+			  <br><br>
+  
+			  <p> 
+				  <!-- project 1 -->
+				  <div style="
+				  display: flex; 
+				  justify-content: space-between; 
+				  align-items: center; 
+				  font-family: 'Nunito Sans', sans-serif; 
+				  font-size: 16px;
+				  color: white;">
+					  <b>1. Contrastive Learning</b>
+					  External Project - Research Project
+					   
+					  <!-- <a href="https://github.com/DasithEdirisinghe" target="_blank">
+						  External Project - Research Project
+						  <span class="icon-github" style="margin-left: 1pt;"></span></a> -->
+					  
+				  </div>
+			 
+				  <p style="
+				  text-align: justify; 
+				  font-family: 'Nunito Sans', sans-serif; 
+				  font-size: 16px;
+				  color: white;">
+					  • This project involves researching and comparing various contrastive learning methods, such as SimSiam, BYOL,
+					  SWaV, and SimCLR. I implemented different contrastive model architectures for both training and inference,
+					  processing 1D ECG signals and enhancing them for downstream tasks like classification using PyTorch.<br>
+					  Learning Outcomes : Research and Development, Contrastive Learning, Self-supervised learning                                    
+					  </p>
+  
+					  <!-- GitHub button -->
+					  <!-- <P> 
+						  <div class="row justify-content-start mt-3 align-left">
+							  <div class="col-md-4">
+								  <a href="https://github.com/YourUsername/YourRepository" target="_blank" class="github-button">
+									  GitHub 
+									  <i class="fab fa-github" style="margin-left: 4px;"></i> 
+									   <span class="icon-github"></span>
+								  </a>
+							  </div>
+						  </div>
+					  </P> -->
+  
+					  <!-- <p>
+						  <ul class="ftco-footer-social list-unstyled d-flex align-items-center mb-0">							
+							  <li class="ftco-animate"><a href="https://github.com/DasithEdirisinghe"><span class="icon-github"></span></a></li>							
+							</ul>					
+					  </p> -->
+  
+					  <br>
+					  <!-- project 2 -->
+					  <div style="
+					  display: flex; 
+					  justify-content: space-between; 
+					  align-items: center; 
+					  font-family:'Nunito Sans', sans-serif; 
+					  font-size: 16px;
+					  color: white;">
+						  <b>2. AlphaGo</b>
+						  University of Moratuwa - Semester Project                            
+					  </div>
+				 
+					  <p style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+						  • This project is regarding the Classification of Anomalies in the Gastrointestinal 
+						  Tract through Endoscopic Imagery. Deep Convolutional Neural Network with transfer 
+						  learning was used. MobileNetV2 has used as the base model.<br>
+						  Learning Outcomes : CNN, Transfer Learning                                      
+						  </p>
+	  
+						  <!-- GitHub button -->
+						  <P> 
+							  <div class="row justify-content-start mt-3 align-left">
+								  <div class="col-md-4">
+									  <a href="https://github.com/DasithEdirisinghe/AlphaGo" target="_blank" class="github-button">
+										  GitHub 
+										  <i class="fab fa-github" style="margin-left: 4px;"></i> 
+										   <span class="icon-github"></span>
+									  </a>
+								  </div>
+							  </div>
+						  </P>
+  
+						  <br>
+					  <!-- project 3 -->
+					  <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px;  color: white;">
+						  <b>3. Wildfire Predictor</b>
+								  Hackathon - H2o.ai                            
+					  </div>
+				 
+					  <p style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+						  • The goal of this project is to predict wildfires in Australia. 
+						  I developed the predictive model using prophet<br>
+						  Learning Outcomes : Time Series Forecasting                                      
+						  </p>
+	  
+						  <!-- GitHub button -->
+						  <P> 
+							  <div class="row justify-content-start mt-3 align-left">
+								  <div class="col-md-4">
+									  <a href="https://github.com/kavindasr/h2o_wildfire" target="_blank" class="github-button">
+										  GitHub 
+										  <i class="fab fa-github" style="margin-left: 4px;"></i> 
+										   <span class="icon-github"></span>
+									  </a>
+								  </div>
+							  </div>
+						  </P>
+  
+						  <br>
+						  <!-- project 4 -->
+						  <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+							  <b>4. iVoke</b>
+							  University of Moratuwa - Semester Project                           
+						  </div>
+					 
+						  <p style="text-align: justify; font-family: 'Nunito Sans', sans-serif; font-size: 16px; color: white;">
+							  • iVoke focuses on detecting driver drowsiness by observing eye blink rate.<br>
+							  Learning Outcomes : Eye Blink Detection(OpenCV), Embedded Hardware(Rpi)                                     
+							  </p>
+		  
+							  <!-- GitHub button -->
+							  <P> 
+								  <div class="row justify-content-start mt-3 align-left">
+									  <div class="col-md-4">
+										  <a href="https://github.com/DasithEdirisinghe/iVoke_Drowsiness-Detection" target="_blank" class="github-button">
+											  GitHub 
+											  <i class="fab fa-github" style="margin-left: 4px;"></i> 
+											   <span class="icon-github"></span>
+										  </a>
+									  </div>
+								  </div>
+							  </P>					
+			  </p>
+			</div>
+		  </div>
+		  
+		  
+		<div>
+			  <!-- <div class="container"> -->
+				  <div class="row justify-content-center">
+					  <div class="col-md-7 ftco-animate text-center">
+						  <h2 style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;">
+							  More projects on<span> Github  </span>
+							  <a href="https://github.com/DasithEdirisinghe"><span class="icon-github"></span></a>
+						   </h2>
+						  <div class="heading"> 
+							  
+						  <br>
+						  <!-- <p>
+							  <a href="https://github.com/rishabhnmishra" class="btn btn-primary py-3 px-5">
+								  GitHub
+							  </a>
+						  </p> -->
+						  <!-- <p>
+						  <ul class="ftco-footer-social list-unstyled d-flex align-items-center mb-0">							
+							  <li class="ftco-animate"><a href="https://github.com/DasithEdirisinghe"><span class="icon-github"></span></a></li>							
+							</ul>					
+					  </p> -->
+						  </div>
+					  </div>
+				  </div>
+			  <!-- </div> -->
+		  </div>
+		</div>
+	  </section>	
+  <!-- Project section ends -->
+
+	
+
+
+<!-- Contact section starts ------------ -->
+    <section style="padding-top: 80px;" id="contact-section">
+      <div class="container">
+		
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2" style="font-family: 'Nunito Sans', sans-serif; font-size: 100px;">Contact</h1>
+            <h2 class="mb-4" style="font-family: 'Nunito Sans', sans-serif;">Contact Me</h2>            
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center contact-info mb-5">
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<!-- <h3 class="mb-4">Address</h3> -->
+	            <p style="font-size: 14pt; font-family: 'Nunito Sans', sans-serif; color: white;font-size: 14px;">Kandy,<br>
+					Sri Lanka</p>
+	          </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<!-- <h3 class="mb-4">Contact Number</h3> -->
+	            <p style="color: white;
+				    font-size: 14px; 
+					font-family: 'Nunito Sans', sans-serif; 
+					">
+					<a href="tel://0101010101" target="_blank" style="color: inherit; text-decoration: none;">+94 77 *** ****</a></p>
+	          </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+
+          		<!-- <h3 class="mb-4">Email Address</h3> -->
+	            <p style="font-size: 14pt; font-family: 'Nunito Sans', sans-serif; align-items: center;">
+					<a href="mailto:dasithu.18@cse.mrt.ac.lk" target="_blank" 
+					style="color: inherit; text-decoration: none; font-family: 'Nunito Sans', sans-serif; color: white; font-size: 14px;">
+					dasith[DOT]18[AT]cse[DOT]mrt[DOT]ac[DOT]lk
+				</a>
+			</p>
+	          </div>
+          </div>
+
+		</div>
+		  
+		  
+
+
+		  <!-- resume part -->
+
+          <!-- <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div> -->
+          		<!-- <h3 class="mb-4">Download Resume</h3> -->
+	            <!-- <p style="font-size: 14pt; font-family: 'Nunito Sans', sans-serif;">
+					<a href="#">resume</a></p>
+	          </div>
+          </div> -->
+
+		  <div class="container">
+
+			<P> 
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-6 text-center ftco-animate">
+						<p><a href="https://drive.google.com/file/d/1UowbmXjfRWDAiybdS0G1SwaenpFOfGkt/view?usp=sharing" 
+							class="btn btn-primary py-2 px-3" target="_blank">Resume 
+							<i class="fab fa-github" style="margin-left: 4px;"></i> 
+						 <span class="icon-download"></span>
+						
+						</a> 
+						</p>
+							
+					</div>
+				</div>
+			</P>
+
+			
+			<br>
+			
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt" style="font-family: 'Nunito Sans', sans-serif; ">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/dasithedirisinghe/" target="_blank"><span class="icon-linkedin"></span></a></li>
+								<li class="ftco-animate"><a href="https://github.com/DasithEdirisinghe" target="_blank"><span class="icon-github"></span></a></li>
+								<li class="ftco-animate"><a href="https://dasith-dev.medium.com/" target="_blank"><span class="icon-medium"></span></a></li>
+								<li class="ftco-animate"><a href="https://x.com/Dasith_dev" target="_blank"><span class="icon-twitter"></span></a></li>
+								
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+ <!-- Contact section ends -------- -->
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <!-- <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+	Copyright &copy;
+	<script>
+	document.write(new Date().getFullYear());
+	</script>  -->
+	<!-- All rights reserved | DasithEdirisinghe 2024 <br> -->
+	<span>© Copyright Dasith Edirisinghe 2024</span> 
+	<!-- <i class="icon-heart color-danger" aria-hidden="true">
+
+	</i> by
+
+	 <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	<!-- </p> -->
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+	  
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
